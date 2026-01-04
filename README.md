@@ -5,7 +5,7 @@ JobFinder to bot na Discorda służący do automatycznego monitorowania ofert pr
 ## 🚀 Funkcje
 
 *   **Automatyczne monitorowanie**: Bot sprawdza nowe oferty co 10 minut.
-*   **Zaawansowane filtrowanie**: Możliwość wyboru typu umowy (np. UoP, B2B), wymiaru etatu, dostępności (praca zdalna/stacjonarna) oraz wymagań dotyczących doświadczenia.
+*   **Zaawansowane filtrowanie**: Możliwość wyboru typu umowy (np. Umowa o Prace), wymiaru etatu, dostępności (praca zdalna/stacjonarna) oraz wymagań dotyczących doświadczenia.
 *   **Powiadomienia w czasie rzeczywistym**: Nowe oferty pojawiają się jako czytelne karty (Embed) z najważniejszymi informacjami: ceną/wynagrodzeniem, lokalizacją i typem kontraktu.
 *   **Interaktywny kreator**: Konfiguracja wyszukiwania odbywa się poprzez przyjazny interfejs z listami rozwijanymi w Discordzie.
 *   **Zarządzanie wyszukiwaniami**: Proste komendy do listowania i usuwania aktywnych powiadomień.
@@ -72,7 +72,3 @@ python bot.py
 *   `database.py`: Warstwa obsługi bazy danych SQLite (Async).
 *   `jobfinder.db`: Baza danych przechowująca aktywne wyszukiwania i historię ofert (generowana automatycznie).
 *   `requirements.txt`: Lista wymaganych bibliotek Python.
-
-## 📝 Uwagi
-
-Skrypt korzysta z web scrapingu, więc jego działanie jest zależne od struktury strony OLX. W przypadku zmian w kodzie HTML serwisu, konieczna może być aktualizacja pliku `scraper.py`.
